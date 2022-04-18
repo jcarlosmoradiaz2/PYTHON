@@ -9,14 +9,41 @@ numAleatorio= random.randint(0,100)
 intentos=10
 numpedido=-1
 aux=5
+ while(intentos>0):
+     print ("Este es el intento número " intentos)
+    numpedido= (int) (input("Dime un número "))
 
-numpedido= (int)(input("Dime un número: "))
+    if(numpedido<numAleatorio):
+        print("El número es mayor")
+    elif (numpedido>numAleatorio):
+        print("El número es menor")
+    else:
+        print("Muy bien")
+        break
 
-if numAleatorio==numpedido:
-    print("genial, has acertado")
-else: 
-    while(numAleatorio!= numpedido and intentos>0)
-    print("no has acertado")
+
+if(intentos>0):
+    print("Te han sobrado " intentos, "intentos")
+else:
+    print("El número quie tenias que adivibnar era ", numAleatorio)
+
+
+
+
+
+
+
+
+
+
+
+#numpedido= (int)(input("Dime un número: "))
+
+#if numAleatorio==numpedido:
+    #print("genial, has acertado")
+#else: 
+ #   while(numAleatorio!= numpedido and intentos>0)
+  #     print("no has acertado")
 
 
 

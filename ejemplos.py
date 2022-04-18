@@ -12,3 +12,4 @@ if(edad>10):
     print(edad + 5)
 else:
     print("Menor de 10")
+
