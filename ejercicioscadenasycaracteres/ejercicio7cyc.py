@@ -7,7 +7,7 @@ caracter2=ord(caracter2)
 
 
 if ((caracter1>=65 and caracter1<=90)and(caracter2>=65 and caracter2<=90)):
-    caracter1=(chr(caracter1).lower())
+    caracter1=chr(caracter1).lower()
     caracter2=chr(caracter2).lower()
     for i in cadena:
         if i==caracter1:

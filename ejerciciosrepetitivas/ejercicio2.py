@@ -18,12 +18,11 @@ while(intentos>0):
     elif (numpedido>numAleatorio):
         print("El número es menor")
     else:
-        print("Muy bien")
+        print("Muy bien, has acerado el número!!!")
         break
     intentos=(intentos-1)
 
 if(intentos>0):
     print ("Te han sobrado ", intentos, "intentos")
 else:
-    print("El número quie tenias que adivibnar era ", numAleatorio)
-
+    print("El número quie tenias que adivinar era ", numAleatorio)
